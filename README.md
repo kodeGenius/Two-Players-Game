@@ -1,3 +1,3 @@
 # Two-Players-Game
 
-Need to modify the logic to prompt 
+Need to modify the logic to prompt a message 
