@@ -1,5 +1,6 @@
 function start(){
 	let userInput = document.getElementById('userSelect').value;
+	userInput = userInput.toLowerCase();
 	console.log(`you entered ${userInput}`)
 
 	
@@ -18,30 +19,30 @@ function start(){
 
 	function compare(){
 		
-		if ( userInput === comp){
-			document.getElementById('result').innerHTML = 'This is a Tie!'
-		}
 		if(userInput === 'paper'){
 		    if(comp === 'rock'){
-		      return 'you won!';
+		      return 'You Won!';
 		    }else{
-		      return 'computer won';
+		      return 'Computer Won';
 		    }
 	  	}
 	    if(userInput === 'scissors'){
 		    if(comp === 'paper'){
-		      return 'you won!';
+		      return 'You Won!';
 		    }else{
-		      return 'Computer won!';
+		      return 'Computer Won!';
 		    }
 		}
 	  	if(userInput === 'rock'){
 		    if(comp === 'scissors'){
-		      return 'You won';
+		      return 'You Won!';
 		    }else{
-		      return 'Computer won';
+		      return 'Computer Won!';
 		    }
 		}
 	}
-	document.getElementById('result').innerHTML = `${compare()}`
+	if ( userInput == comp){
+			document.getElementById('result').innerHTML = `This is a Tie!`;
+		}else{
+	document.getElementById('result').innerHTML = `${compare()}`}
 }
