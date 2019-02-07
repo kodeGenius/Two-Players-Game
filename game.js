@@ -14,7 +14,7 @@ function start(){
 		}
 	} 
 	let comp = comInput();
-	console.log(`computer enters ${com}`)
+	console.log(`computer enters ${comp}`)
 
 	function compare(){
 		

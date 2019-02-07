@@ -2,12 +2,21 @@
 <html>
 <head>
 		<title>Two Players Game</title>
+		<style type="text/css">
+			#result{
+				font-size: 35px;
+				font-weight: bold;
+				color: red;
+				font-style: italic;
+				font-family: sans-serif;
+			}
+		</style>
 		<script type="text/javascript" src="game.js"></script>
 </head>
 <body>
 	<h1>Two Player Game</h1>
 	<label>What would you pick: </label><input type="text" id="userSelect" placeholder="Type Paper, Scissors or Rock" />
 	<input type="button" name="button" value="Start Game" onclick="start();">
-	<div id="result" style="color: red blue green"></div>
+	<div id="result"></div>
 </body>
 </html>
