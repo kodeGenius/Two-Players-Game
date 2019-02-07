@@ -40,5 +40,5 @@ function start(){
 		    }
 		}
 	}
-	
+	document.getElementById('result').innerHTML = `${compare()}`
 }
