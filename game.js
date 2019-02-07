@@ -34,5 +34,6 @@ function start(){
   	if(userChoice === 'rock'){
 	    if(comChoice === 'scissors'){
 	      return 'You won';
+	    }else{
 	    
 }
