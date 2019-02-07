@@ -26,5 +26,6 @@ function start(){
   	}
     if(userChoice === 'scissors'){
 	    if(comChoice === 'paper'){
+	      return 'you won!';
 	    
 }
