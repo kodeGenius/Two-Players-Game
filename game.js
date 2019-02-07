@@ -13,36 +13,35 @@ function start(){
 			return"paper";
 		}
 	} 
-	let com = comInput();
+	let comp = comInput();
 	console.log(`computer enters ${com}`)
 
-	/*function compare(){
-		let comp = comInput();
-
-		if ( userInput == comp){
+	function compare(){
+		
+		if ( userInput === comp){
 			document.getElementById('result').innerHTML = 'This is a Tie!'
 		}
-		if(userChoice === 'paper'){
-		    if(comChoice === 'rock'){
+		if(userInput === 'paper'){
+		    if(comp === 'rock'){
 		      return 'you won!';
 		    }else{
 		      return 'computer won';
 		    }
 	  	}
-	    if(userChoice === 'scissors'){
-		    if(comChoice === 'paper'){
+	    if(userInput === 'scissors'){
+		    if(comp === 'paper'){
 		      return 'you won!';
 		    }else{
 		      return 'Computer won!';
 		    }
 		}
-	  	if(userChoice === 'rock'){
-		    if(comChoice === 'scissors'){
+	  	if(userInput === 'rock'){
+		    if(comp === 'scissors'){
 		      return 'You won';
 		    }else{
 		      return 'Computer won';
 		    }
 		}
 	}
-	document.getElementById('result').innerHTML = `${compare()}`*/
+	document.getElementById('result').innerHTML = `${compare()}`
 }
