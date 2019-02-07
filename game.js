@@ -29,5 +29,7 @@ function start(){
 	      return 'you won!';
 	    }else{
 	      return 'Computer won!';
-	
+	    }
+	}
+  	
 }
