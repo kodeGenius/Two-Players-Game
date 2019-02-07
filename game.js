@@ -17,5 +17,6 @@ function start(){
 	if ( userInput == comp){
 		document.getElementById('result').innerHTML = 'This is a Tie!'
 	}
+	if(userChoice === 'paper'){
 	
 }
