@@ -24,5 +24,6 @@ function start(){
 	      return 'computer won';
 	    }
   	}
-    
+    if(userChoice === 'scissors'){
+	   
 }
