@@ -18,5 +18,6 @@ function start(){
 		document.getElementById('result').innerHTML = 'This is a Tie!'
 	}
 	if(userChoice === 'paper'){
-	
+	    if(comChoice === 'rock'){
+	    
 }
