@@ -1,3 +1,3 @@
 # Two-Players-Game
 
-Need to modify 
+Need to modify the logic 
