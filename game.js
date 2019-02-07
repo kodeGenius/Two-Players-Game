@@ -31,5 +31,6 @@ function start(){
 	      return 'Computer won!';
 	    }
 	}
-  	
+  	if(userChoice === 'rock'){
+	    
 }
