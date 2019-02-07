@@ -21,5 +21,6 @@ function start(){
 	    if(comChoice === 'rock'){
 	      return 'you won!';
 	    }else{
-	     
+	      return 'computer won';
+	 
 }
