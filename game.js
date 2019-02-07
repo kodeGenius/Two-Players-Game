@@ -12,5 +12,10 @@ function start(){
 		}
 	} 
 
+	let comp = comInput();
+
+	if ( userInput == comp){
+		document.getElementById('result').innerHTML = 'This is a Tie!'
+	}
 	
 }
