@@ -12,30 +12,33 @@ function start(){
 		}
 	} 
 
-	let comp = comInput();
+	function compare(){
+		let comp = comInput();
 
-	if ( userInput == comp){
-		document.getElementById('result').innerHTML = 'This is a Tie!'
+		if ( userInput == comp){
+			document.getElementById('result').innerHTML = 'This is a Tie!'
+		}
+		if(userChoice === 'paper'){
+		    if(comChoice === 'rock'){
+		      return 'you won!';
+		    }else{
+		      return 'computer won';
+		    }
+	  	}
+	    if(userChoice === 'scissors'){
+		    if(comChoice === 'paper'){
+		      return 'you won!';
+		    }else{
+		      return 'Computer won!';
+		    }
+		}
+	  	if(userChoice === 'rock'){
+		    if(comChoice === 'scissors'){
+		      return 'You won';
+		    }else{
+		      return 'Computer won';
+		    }
+		}
 	}
-	if(userChoice === 'paper'){
-	    if(comChoice === 'rock'){
-	      return 'you won!';
-	    }else{
-	      return 'computer won';
-	    }
-  	}
-    if(userChoice === 'scissors'){
-	    if(comChoice === 'paper'){
-	      return 'you won!';
-	    }else{
-	      return 'Computer won!';
-	    }
-	}
-  	if(userChoice === 'rock'){
-	    if(comChoice === 'scissors'){
-	      return 'You won';
-	    }else{
-	      return 'Computer won';
-	    }
-	}
+	
 }
