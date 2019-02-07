@@ -19,5 +19,7 @@ function start(){
 	}
 	if(userChoice === 'paper'){
 	    if(comChoice === 'rock'){
-	    
+	      return 'you won!';
+	    }else{
+	     
 }
