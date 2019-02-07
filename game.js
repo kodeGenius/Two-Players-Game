@@ -6,13 +6,15 @@ function start(){
 	function comInput(){
 		let rand = Math.floor(Math.random()*3);
 		if(rand == 0){
-			console.log("scissors");
+			return "scissors";
 		}else if(rand == 1){
-			console.log("rock");
+			return "rock";
 		}else{
-			console.log("paper");
+			return"paper";
 		}
 	} 
+	let com = comInput();
+	console.log(`computer enters ${com}`)
 
 	/*function compare(){
 		let comp = comInput();
