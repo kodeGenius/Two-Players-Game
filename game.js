@@ -35,5 +35,7 @@ function start(){
 	    if(comChoice === 'scissors'){
 	      return 'You won';
 	    }else{
-	    
+	      return 'Computer won';
+	    }
+	}
 }
