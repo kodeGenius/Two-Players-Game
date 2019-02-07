@@ -1,0 +1,16 @@
+function start(){
+	let userInput = document.getElementById('userSelect').value;
+	let rand = Math.floor(Math.random()*3);
+
+	function comInput(){
+		if(rand == 0){
+			return "scissors";
+		}else if(rand == 1){
+			return "rock";
+		}else{
+			return "paper";
+		}
+	} 
+
+	
+}
