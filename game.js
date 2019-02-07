@@ -42,5 +42,5 @@ function start(){
 		    }
 		}
 	}
-	document.getElementById('result').innerHTML = `${compare()}`
-}*/
+	document.getElementById('result').innerHTML = `${compare()}`*/
+}
