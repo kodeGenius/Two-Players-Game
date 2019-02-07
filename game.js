@@ -1,18 +1,20 @@
 function start(){
 	let userInput = document.getElementById('userSelect').value;
+	console.log(`you entered ${userInput}`)
+
 	let rand = Math.floor(Math.random()*3);
 
 	function comInput(){
 		if(rand == 0){
-			return "scissors";
+			console.log("scissors");
 		}else if(rand == 1){
-			return "rock";
+			console.log("rock");
 		}else{
-			return "paper";
+			console.log("paper");
 		}
 	} 
 
-	function compare(){
+	/*function compare(){
 		let comp = comInput();
 
 		if ( userInput == comp){
@@ -41,4 +43,4 @@ function start(){
 		}
 	}
 	document.getElementById('result').innerHTML = `${compare()}`
-}
+}*/
