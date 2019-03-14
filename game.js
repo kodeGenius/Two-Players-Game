@@ -20,7 +20,7 @@ function start(){
 	let comp = comInput();
 	console.log(`you entered ${userInput}`)
 	console.log(`computer enters ${comp}`)
-
+// function to compare...
 	function compare(){
 		if(userInput === 'paper'){
 		    if(comp === 'rock'){
