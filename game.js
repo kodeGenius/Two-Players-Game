@@ -21,7 +21,6 @@ function start(){
 	console.log(`you entered ${userInput}`)
 	console.log(`computer enters ${comp}`)
 
-// bad comments
 // function to compare...
 	function compare(){
 		if(userInput === 'paper'){
