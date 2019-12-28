@@ -45,6 +45,7 @@ function start(){
 		    }
 		}
 	}
+// rand input
 	if(userInput == 'rock' || 'scissors' || 'paper'){
 	if ( userInput == comp){
 			document.getElementById('result').innerHTML = `This is a Tie!`;
