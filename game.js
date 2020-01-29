@@ -1,4 +1,4 @@
-//player game
+
 function start(){
 	function user(){
 		let userInput = document.getElementById('userSelect').value;
